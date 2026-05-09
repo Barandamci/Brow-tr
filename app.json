@@ -1,0 +1,15 @@
+cat <<EOF > app.json
+{
+  "expo": {
+    "name": "brow",
+    "slug": "brow",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.brow"
+    },
+    "ios": {
+      "bundleIdentifier": "com.brow"
+    }
+  }
+}
+EOF
